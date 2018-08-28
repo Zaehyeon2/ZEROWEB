@@ -48,6 +48,7 @@ h1 {
 	padding-top: 80px;
 	background-color: white;
 	color: rgb(78, 72, 72);
+	margin: 80px;
 }
 
 #home img {
@@ -61,7 +62,7 @@ h1 {
 }
 
 .ZO {
-	margin-top: 70px;
+	margin-top: 50px;
 	text-align: left;
 	display: inline-block;
 }
