@@ -1,0 +1,126 @@
+* {
+	font-family: "Nanum Gothic";
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+.bar {
+	text-align: center;
+	height: 80px;
+	vertical-align: middle;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background-color : rgba(255, 255, 255, 0.9);
+	z-index: 1050;
+	text-decoration: none;
+}
+
+.bar img {
+	height: 20px;
+	margin-left: 30px;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.bar a, .bar a:hover {
+	margin-top: 20px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 28px;
+	margin-right: 50px;
+	color: rgb(78, 72, 72);
+	vertical-align: middle;
+}
+
+
+#home{
+	padding-top: 80px;
+	background-color: white;
+	color: rgb(78, 72, 72);
+}
+
+#home img {
+	width: 300px;
+	vertical-align: top;
+	margin: 30px;
+}
+
+.title {
+	text-align: center;
+}
+
+.ZO {
+	margin-top: 70px;
+	text-align: left;
+	display: inline-block;
+}
+
+.ZOinfo{
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+.ZOname{
+	font-size: 50px;
+}
+
+
+#notice {
+	background-color: white;
+	padding-top: 80px;
+	
+}
+
+#active{
+	background-color: lavender;
+	padding-top: 80px;
+	
+}
+
+#inq{
+	padding-top: 80px;
+}
+
+.name{
+	padding: 30px;
+	text-align: center;
+	font-size: 60px;
+	color: rgb(78, 72, 72);
+}
+
+.row {
+	color: rgb(78, 72, 72);
+	text-align: center;
+}
+
+.row img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+@media (min-width: 992px) .col-md-4 {
+	width: 33.33333%;
+}
+
+.col-md-4 {
+	text-align: center;
+	position: relative;
+	padding: 50px;
+}
+
+.col-md-4 h2{
+	font-size: 15px;
+	text-align: left;
+}
